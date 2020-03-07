@@ -1,1 +1,1 @@
-"use strict";
+"use strict";$(function(){$(".tab-login-item").click(function(){$(this).addClass("active").siblings().removeClass("active"),$(".loginView").eq($(this).index()).addClass("loginViewCurrent").siblings().removeClass("loginViewCurrent")}),$("#loginBtn").click(function(){var s=$("#username-ID").val(),i=$("#password-ID").val();$.ajax({type:"post",url:".././api/login.php",data:{username:s,password:i},dataType:"json",success:function(s){console.log(s),"success"==s.status?window.location.href="https://www.jianke.com/":alert(s.data.msg)}})})});

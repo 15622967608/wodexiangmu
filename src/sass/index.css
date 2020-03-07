@@ -1,0 +1,331 @@
+body, html {
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.header ul {
+  display: flex;
+  height: 100%;
+  padding-left: 25px;
+}
+
+.header ul li {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.header ul li span {
+  padding: 0 10px;
+}
+
+.header ol {
+  display: flex;
+  height: 100%;
+  padding-right: 100px;
+}
+
+.header ol li {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header ol li span {
+  padding: 0 10px;
+}
+
+.daohang {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.daohang .ln img {
+  width: 100%;
+  height: 100%;
+}
+
+.daohang ul {
+  display: flex;
+  height: 100%;
+}
+
+.daohang ul li {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.daohang ol {
+  display: flex;
+  height: 100%;
+  padding-right: 100px;
+}
+
+.daohang ol li {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  display: none;
+}
+
+.box ul {
+  display: flex;
+}
+
+.box ul li {
+  display: flex;
+  padding: 20px;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box ul li div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #333;
+  margin-bottom: 15px;
+}
+
+.box ul li div img {
+  width: 160px;
+  height: 110px;
+  display: block;
+}
+
+.box ul li p {
+  margin-bottom: 5px;
+}
+
+.box ul li:last-child > div {
+  border: none;
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav img {
+  width: 100%;
+  height: 100%;
+}
+
+.banner {
+  width: 100%;
+}
+
+.banner img {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.banner .swiper-slide img {
+  position: relative;
+  width: 386px;
+  height: 302px;
+  margin: 90px auto;
+}
+
+.fuli {
+  width: 100%;
+}
+
+.fuli img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.shoufa {
+  width: 100%;
+}
+
+.shoufa img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.tongkuan {
+  width: 100%;
+}
+
+.tongkuan img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.tongkuan2 {
+  width: 100%;
+}
+
+.tongkuan2 img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.yushuai {
+  width: 100%;
+}
+
+.yushuai img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.haibao {
+  width: 100%;
+}
+
+.haibao img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.chaoyinsu {
+  width: 100%;
+}
+
+.chaoyinsu img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.chaoyinsu {
+  width: 100%;
+}
+
+.chaoyinsu img {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.chaoyinsu .swiper-slide img {
+  position: relative;
+  width: 386px;
+  height: 302px;
+  margin: 90px auto;
+}
+
+.fengge {
+  width: 100%;
+}
+
+.fengge img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.shishang {
+  width: 100%;
+}
+
+.shishang img {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.shishang .swiper-slide img {
+  position: relative;
+  width: 386px;
+  height: 302px;
+  margin: 50px auto;
+}
+
+.manjian {
+  width: 100%;
+}
+
+.manjian img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.guochan {
+  width: 100%;
+}
+
+.guochan img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.xianfeng {
+  width: 100%;
+}
+
+.xianfeng img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.lanqiu {
+  width: 100%;
+}
+
+.lanqiu img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.run {
+  width: 100%;
+}
+
+.run img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.girl {
+  width: 100%;
+}
+
+.girl img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.pao {
+  width: 100%;
+}
+
+.pao img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.renwu {
+  width: 100%;
+}
+
+.renwu img {
+  margin: 0 auto;
+  width: 100%;
+}

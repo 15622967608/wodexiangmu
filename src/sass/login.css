@@ -1,0 +1,87 @@
+body, html {
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.header ul {
+  display: flex;
+  height: 100%;
+  padding-left: 25px;
+}
+
+.header ul li {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.header ul li span {
+  padding: 0 10px;
+}
+
+.header ol {
+  display: flex;
+  height: 100%;
+  padding-right: 100px;
+}
+
+.header ol li {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header ol li span {
+  padding: 0 10px;
+}
+
+.daohang {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.daohang .ln img {
+  width: 100%;
+  height: 100%;
+}
+
+.daohang ul {
+  display: flex;
+  height: 100%;
+}
+
+.daohang ul li {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.daohang ol {
+  display: flex;
+  height: 100%;
+  padding-right: 100px;
+}
+
+.daohang ol li {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
